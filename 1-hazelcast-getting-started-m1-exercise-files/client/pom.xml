@@ -4,12 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.pluralsight.hazelcast</groupId>
-	<artifactId>shared</artifactId>
+	<artifactId>client</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>Shared</name>
-	<description>Shared library between storage nodes and main application</description>
+	<name>Client</name>
 
 	<parent>
 		<groupId>com.pluarlsight.hazelcast</groupId>
@@ -38,6 +37,15 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
 	
 
 </project>

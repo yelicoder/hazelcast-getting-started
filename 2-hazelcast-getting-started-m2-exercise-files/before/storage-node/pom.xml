@@ -8,14 +8,13 @@
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>Storage Node</name>
+	<name>storage-node</name>
 	<description>Hazelcast Storage Node</description>
 
 	<parent>
 		<groupId>com.pluarlsight.hazelcast</groupId>
 		<artifactId>module2</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
-		<relativePath>../</relativePath>
 	</parent>
 
 	<properties>
@@ -27,10 +26,6 @@
 		<dependency>
 			<groupId>com.hazelcast</groupId>
 			<artifactId>hazelcast-all</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.pluralsight.hazelcast</groupId>
-			<artifactId>shared</artifactId>
 		</dependency>
 	</dependencies>
 
